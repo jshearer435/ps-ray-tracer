@@ -218,7 +218,10 @@ class Object  {
     }
     [Color] getObjectColor()  {
         return [Color] (0, 0, 0, 0)
-    }  
+    } 
+    [Color] getAlternateColor ()  {
+        return [Color] (1, 1, 1, 0)
+    } 
 }
 
 class Sphere : Object  {
