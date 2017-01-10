@@ -490,7 +490,7 @@ function trace_bitmap ( [String]$filename )  {
     $cam_down = $cam_right.crossproduct($cam_dir)
     $scene_cam = [Camera]::new($cam_pos, $cam_dir, $cam_right, $cam_down)
     # colors
-    $amber = [Color]::new( 0.9, 0.8, 0.7, 0 )
+    $amber = [Color]::new( 0.9, 0.8, 0.6, 0 )
     $white = [Color]::new( 0.9, 0.9, 0.9, 0 )
     $soft_green = [Color]::new( 0.1, 0.4, 0.1, 0 )
     $gray = [Color]::new( 0.5, 0.5, 0.5, 0 )
