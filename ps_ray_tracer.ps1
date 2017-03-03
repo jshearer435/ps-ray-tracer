@@ -481,6 +481,7 @@ function trace_bitmap ( [String]$filename )  {
     $vect_O = [Vect]::new(0,0,0)
     $vect_OO = [Vect]::new(1,0.5,0)
     $vect_Q = [Vect]::new(-1,1.5,0) 
+    $vect_QQ = [Vect]::new(1,-1.5,0) 
     # camera objects
     $cam_pos = [Vect]::new(4, 1.3, -6)
     $look_at = [Vect]::new(-8, 0, 0)
